@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Example</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        font-weight: bold;
+      }
+
+      .bold-row th,
+      .bold-row td {
+        font-weight: bold;
+        border: 2px solid black; /* Increased border thickness for bold effect */
+      }
+
+      .bold-total th,
+      .bold-total td {
+        font-weight: bold;
+      }
+
+      .blue-color {
+        background-color: rgb(0, 217, 255);
+      }
+
+      .yellow-color {
+        background-color: rgb(234, 255, 0);
+      }
+
+      .grey-color {
+        background-color: lightgrey;
+      }
+      .thin-border th,
+      .thin-border td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr class="bold-row">
+          <th rowspan="2">Name</th>
+          <th colspan="4">CAPITAL STRUCTURE BEFORE THIS ROUND</th>
+          <th colspan="3">CAPITAL STRUCTURE AFTER THIS ROUND</th>
+          <th rowspan="2">Amt</th>
+          <th rowspan="2">Return</th>
+        </tr>
+        <tr class="bold-row">
+          <th>Date</th>
+          <th>Nos</th>
+          <th>Stake Pre</th>
+          <th>Last Valuation</th>
+          <th>Nos</th>
+          <th>Stake Post</th>
+          <th>Post Valuation</th>
+        </tr>
+        <tr>
+          <td>Founder</td>
+          <td></td>
+          <td>18000</td>
+          <td>1.30%</td>
+          <td>&#8377;54,86,94,000</td>
+          <td>18000</td>
+          <td>1.293%</td>
+          <td>$54,86,94,000</td>
+          <td>$1,80,000</td>
+          <td>304730.00%</td>
+        </tr>
+        <tr>
+          <td>WS Ravi Shankar</td>
+          <td>25-Jul-2016</td>
+          <td>164</td>
+          <td>0.01%</td>
+          <td>$49,99,212</td>
+          <td>164</td>
+          <td>0.012%</td>
+          <td>$49,99,212</td>
+          <td>$49,99,212</td>
+          <td>0.00%</td>
+        </tr>
+        <tr>
+          <td>Atul Singhal</td>
+          <td>25-Jul-2016</td>
+          <td>164</td>
+          <td>0.01%</td>
+          <td>$49,99,212</td>
+          <td>164</td>
+          <td>0.012%</td>
+          <td>$49,99,212</td>
+          <td>$49,99,212</td>
+          <td>0.00%</td>
+        </tr>
+        <tr class="bold-total">
+          <th></th>
+          <td class="grey-color"></td>
+          <td class="grey-color">18328</td>
+          <td class="grey-color">1.32%</td>
+          <td class="grey-color">$55,86,92,424</td>
+          <td class="grey-color">18328</td>
+          <td class="grey-color">1.317%</td>
+          <td class="grey-color">$54,86,92,424</td>
+          <td class="grey-color"></td>
+          <td class="grey-color"></td>
+        </tr>
+        <div class="bold-row">
+          <tr>
+            <td rowspan="4">Atul Jain Business</td>
+            <td>2 Nov, 2013</td>
+            <td>984</td>
+            <td>0.07%</td>
+            <td>$2,99,95,272</td>
+            <td>984</td>
+            <td>0.071%</td>
+            <td>$2,99,95,272</td>
+            <td>$2,50,01,184</td>
+            <td>19.98%</td>
+          </tr>
+          <tr>
+            <td>28 Jul, 2014</td>
+            <td>656</td>
+            <td>0.05%</td>
+            <td>$1,99,96,848</td>
+            <td>656</td>
+            <td>0.047%</td>
+            <td>$1,99,96,848</td>
+            <td>$1,49.99,424</td>
+            <td>33.32%</td>
+          </tr>
+          <tr>
+            <td>25 Jul, 2016</td>
+            <td>197</td>
+            <td>0.01%</td>
+            <td>$60,05,151</td>
+            <td>197</td>
+            <td>0.014%</td>
+            <td>$60,05,151</td>
+            <td>$60,05,151</td>
+            <td>0.00%</td>
+          </tr>
+
+          <tr class="bold-total">
+            <td class="grey-color"></td>
+            <td class="grey-color">1,837</td>
+            <td class="grey-color">0.13%</td>
+            <td class="grey-color">$55,997,271</td>
+            <td class="grey-color">1,837</td>
+            <td class="grey-color">0.132%</td>
+            <td class="grey-color">$55,997,271</td>
+            <td class="grey-color"></td>
+            <td class="grey-color"></td>
+          </tr>
+          <tr>
+            <td>Cartikeya Reddy</td>
+            <td>25 Jul, 2016</td>
+            <td>164</td>
+            <td>0.01%</td>
+            <td>$49,99,212</td>
+            <td>164</td>
+            <td>0.012%</td>
+            <td>$49,99,212</td>
+            <td>$49,99,212</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>Paritcsh Wali</td>
+            <td>25 Jul, 2016</td>
+            <td>115</td>
+            <td>0.01%</td>
+            <td>$35,05,545</td>
+            <td>115</td>
+            <td>0.008%</td>
+            <td>$35,05,545</td>
+            <td>$35,05,545</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>Upendra Kamalapuri</td>
+            <td>25 Jul, 2016</td>
+            <td>115</td>
+            <td>0.01%</td>
+            <td>$35,05,545</td>
+            <td>115</td>
+            <td>0.008%</td>
+            <td>$35,05,545</td>
+            <td>$35,05,545</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>H S Nagaraja</td>
+            <td>25 Jul, 2016</td>
+            <td>82</td>
+            <td>0.01%</td>
+            <td>$24,99,606</td>
+            <td>82</td>
+            <td>0.006%</td>
+            <td>24,99,606</td>
+            <td>$24,99,606</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>Balakrishna Adiga</td>
+            <td>25 Jul, 2016</td>
+            <td>82</td>
+            <td>0.01%</td>
+            <td>$24,99,606</td>
+            <td>82</td>
+            <td>0.006%</td>
+            <td>24,99,606</td>
+            <td>$24,99,606</td>
+            <td>0.00%</td>
+          </tr>
+          <tr>
+            <td>Accel Growth III FVCI(Mauritius) LTD</td>
+            <td>25 Jul, 2016</td>
+            <td>4,330</td>
+            <td>0.31%</td>
+            <td>$13,19,91,390</td>
+            <td>4,330</td>
+            <td>0.311%</td>
+            <td>$13,19,91,390</td>
+            <td>$13,19,91,390</td>
+            <td>0.00%</td>
+          </tr>
+          <tr class="bold-total">
+            <th></th>
+            <td class="grey-color"></td>
+            <td class="grey-color">4,888</td>
+            <td class="grey-color">0.35%</td>
+            <td class="grey-color">$14,90,00,904</td>
+            <td class="grey-color">4,888</td>
+            <td class="grey-color">0.351%</td>
+            <td class="grey-color">$14,90,00,904</td>
+            <td class="grey-color"></td>
+            <td class="grey-color"></td>
+          </tr>
+          <tr>
+            <td rowspan="10">Accel India</td>
+            <td>24 Jan, 2011</td>
+            <td>3,887</td>
+            <td>0.28%</td>
+            <td>$11,84,87,421</td>
+            <td>3,887</td>
+            <td>0.279%</td>
+            <td>$11,84,87,421</td>
+            <td>$2,00,05,807</td>
+            <td>492.27%</td>
+          </tr>
+          <tr>
+            <td>29 Nov, 2011</td>
+            <td>2,332</td>
+            <td>0.17%</td>
+            <td>$7,10,86,356</td>
+            <td>2,332</td>
+            <td>0.168%</td>
+            <td>$7,10,86,356</td>
+            <td>$1,50,01,021</td>
+            <td>373.88%</td>
+          </tr>
+          <tr>
+            <td>31 Jul, 2012</td>
+            <td>1,531</td>
+            <td>0.11%</td>
+            <td>$4,66,69,473</td>
+            <td>1,531</td>
+            <td>0.110%</td>
+            <td>$4,66,69,473</td>
+            <td>$3,00,02,042</td>
+            <td>55.55%</td>
+          </tr>
+          <tr>
+            <td>24 Jul, 2013</td>
+            <td>984</td>
+            <td>0.07%</td>
+            <td>$2,99,95,272</td>
+            <td>984</td>
+            <td>0.071%</td>
+            <td>$2,99,95,272</td>
+            <td>$1,50,01,050</td>
+            <td>99.95%</td>
+          </tr>
+          <tr>
+            <td>28 Jul, 2014</td>
+            <td>1,968</td>
+            <td>0.14%</td>
+            <td>$5,99,90,544</td>
+            <td>1,968</td>
+            <td>0.141%</td>
+            <td>$5,99,90,544</td>
+            <td>$1,00,00,681</td>
+            <td>499.86%</td>
+          </tr>
+          <tr>
+            <td>2 Jun, 2015</td>
+            <td>305,000</td>
+            <td>21.95%</td>
+            <td>$929,73,15,000</td>
+            <td>305,000</td>
+            <td>21.915%</td>
+            <td>$929,73,15,000</td>
+            <td>$3,05,00,000</td>
+            <td>30383.00%</td>
+          </tr>
+          <tr>
+            <td>26 Aug, 2015</td>
+            <td>320,000</td>
+            <td>23.03%</td>
+            <td>$975,45,60,000</td>
+            <td>320,000</td>
+            <td>22.992%</td>
+            <td>$975,45,60,000</td>
+            <td>$3,20,00,000</td>
+            <td>30383.00%</td>
+          </tr>
+          <tr>
+            <td>2 Feb 2016</td>
+            <td>728,750</td>
+            <td>52.45%</td>
+            <td>$2221,44,86,250</td>
+            <td>728,750</td>
+            <td>52.362%</td>
+            <td>$2221,44,86,250</td>
+            <td>$3,28,75,000</td>
+            <td>67472.58%</td>
+          </tr>
+          <tr class="bold-total">
+            <td class="blue-color">25 Apr, 2019</td>
+            <td class="yellow-color"></td>
+            <td class="yellow-color"></td>
+            <td class="yellow-color"></td>
+            <td class="yellow-color">2,260</td>
+            <td class="yellow-color">0.162</td>
+            <td class="blue-color">$6,88,91,580</td>
+            <td class="yellow-color">$6,88,91,580</td>
+            <td class="yellow-color">0.00%</td>
+          </tr>
+          <tr class="bold-total">
+            <td class="grey-color"></td>
+            <td class="grey-color">1,364,452</td>
+            <td class="grey-color">98.20%</td>
+            <td class="grey-color">$4159,25,90,316</td>
+            <td class="grey-color">1,366,712</td>
+            <td class="grey-color">98.200%</td>
+            <td class="grey-color">4166,14,81,896</td>
+            <td class="grey-color"></td>
+            <td class="grey-color"></td>
+          </tr>
+
+          <tr>
+            <th></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr class="bold-total">
+            <th>Total</th>
+            <td class="grey-color"></td>
+            <td class="grey-color">1,389,505</td>
+            <td class="grey-color">100.00%</td>
+            <td class="grey-color">$4235,62,80,915</td>
+            <td class="grey-color">1,391,765</td>
+            <td class="grey-color">100.000%</td>
+            <td class="blue-color">4242,51,72,495</td>
+            <td class="grey-color"></td>
+            <td class="grey-color"></td>
+          </tr>
+        </div>
+      </table>
+    </div>
+  </body>
+</html>
